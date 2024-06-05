@@ -11,7 +11,20 @@
     justify-content: space-between;
     height: 100px;
 }
-
+.logo{
+   margin-left: 40px;
+}
+  
+.cb-informacoes a{
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    cursor:pointer;
+    margin: 40px;
+    
+    
+    
+}
 .section {
     margin: 0;
     padding: 0;
@@ -19,18 +32,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .slider {
     width: 100%; /* Alterado para 100% */
-    height: 500px;  
+    height: 700px;  
     overflow: hidden;
     position: relative; /* Adicionado */
 }
 
 .slide {
     width: 500%; /* Ajuste opcional */
-    height: 500px;
+    height: 700px;
     display: flex;
     position: relative; /* Adicionado */
 }
@@ -46,7 +60,7 @@
 
 .st img {
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 
 
@@ -127,4 +141,13 @@
 
 #radio4:checked ~ .nav-auto .a-b4 {
     background-color: aqua;
+}
+.reclame{
+    background-color: #023A84;
+    height: 130px;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
