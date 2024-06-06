@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Inter', sans-serif;
 }
 
 .cabecalho {
-    background-color: rgba(33, 54, 110, 1);
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 .logo{
    margin-left: 40px;
@@ -17,11 +20,11 @@
   
 .cb-informacoes a{
     font-size: 3vh;
-    color: aliceblue;
+    color: #023a84;
     text-decoration: none;
     cursor:pointer;
     margin: 40px;
- 
+    font-family: "Freeman", sans-serif;
     
 }
 .section {
@@ -36,7 +39,7 @@
 
 .slider {
     width: 100%; /* Alterado para 100% */
-    height: 700px;  
+    height: 100%;  
     overflow: hidden;
     position: relative; /* Adicionado */
 }
@@ -74,7 +77,7 @@
 }
 
 .m-btn {
-    border: 2px solid blueviolet;
+    border: 2px solid #023a84;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -86,7 +89,7 @@
 }
 
 .m-btn:hover {
-    background-color: aqua;
+    background-color: #023A84;
 }
 
 #radio1:checked ~ .first {
@@ -116,7 +119,7 @@
 }
 
 .nav-auto div {
-    border: 2px solid aqua;
+    border: 2px solid #023A84;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -127,29 +130,41 @@
 }
 
 #radio1:checked ~ .nav-auto .a-b1 {
-    background-color: aqua;
+    background-color: #023A84;
 }
 
 #radio2:checked ~ .nav-auto .a-b2 {
-    background-color: aqua;
+    background-color: #023A84;
 }
 
 #radio3:checked ~ .nav-auto .a-b3 {
-    background-color: aqua;
+    background-color: #023A84;
 }
 
 #radio4:checked ~ .nav-auto .a-b4 {
-    background-color: aqua;
-}
-.reclame{
     background-color: #023A84;
-    height: 130px;
-    color: white;
-    font-size: 50px;
+}
+
+.sobre-nos{
     display: flex;
-    justify-content:left;
     align-items: center;
+    flex-direction: column;
+   padding: 20px;
 }
-.reclame p{
-    margin-left: 50px;
+.sobre-nos h1{
+    font-size: 44px;
+    padding: 10px;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #0057B6;
+    }
+.sobre-nos p{
+font-size: 2vh;
+width: 100vh;
+color: #949494;
+font-family: "Monstserra", sans-serif;
 }
+
+
+
+
+
