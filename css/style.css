@@ -159,7 +159,8 @@
     }
 .sobre-nos p{
 font-size: 2vh;
-width: 100vh;
+margin-left: 100px;
+margin-right: 100px;
 color: #949494;
 font-family: "Monstserra", sans-serif;
 }
