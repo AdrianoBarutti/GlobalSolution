@@ -5,8 +5,9 @@
     padding: 0;
     margin: 0;
    
+   
 }
-
+ 
 .cabecalho {
     background-color: white;
     display: flex;
@@ -17,4 +18,59 @@
 .logo {
     margin-left: 40px;
 }
-  
+.satelite{
+    padding: 50px;
+}
+.satelite h1{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #0057B6;
+    margin-left: 100px;
+}
+.satelite p{
+    color: #949494;
+    font-family: "Monstserra", sans-serif;
+    width: 90%;
+    padding-left: 8vh;
+   
+    margin: 10px;
+}
+.drones{
+    padding: 50px;
+}
+.drones h1{
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #0057B6;
+    margin-left: 100px;
+ 
+}
+.drones p{
+    color: #949494;
+    font-family: "Monstserra", sans-serif;
+    width: 90%;
+    padding-left: 8vh;
+    margin: 10px;
+ 
+}
+.rodape {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.rodape h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    margin-bottom: 20px;
+}
+.img-empresas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-empresas img {
+    height: 10vh;
+    width:200px;
+    margin: 10px;
+}
