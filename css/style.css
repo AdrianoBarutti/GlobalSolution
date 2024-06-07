@@ -20,7 +20,7 @@ html{
 .logo {
     margin-left: 40px;
 }
- 
+
 .cb-informacoes a {
     font-size: 3vh;
     color: #023a84;
@@ -29,6 +29,7 @@ html{
     margin: 40px;
     font-family: "Freeman", sans-serif;
 }
+
 .section {
     margin: 0;
     padding: 0;

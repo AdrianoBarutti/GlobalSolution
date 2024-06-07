@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<link rel="shortcut icon" type="image/jpg" href="./img/logo.png"/>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/login.css">
-    <script src="script.js"></script>
+    <script src="/javascript/login.js"></script>
     <title>Login</title>
 </head>
 <body>
+    <header>
+        <nav class="cabecalho">
+            <div class="logo">
+               <a href="/index.html"><img src="/img/logo.png" alt="Imagem-logo"></a>
+            </div>
+        </nav>
+        <hr>
+    </header>
+        
     <form class="form">
         <div class="email">
             <div><label>Email</label></div>
             <input class="email-d" type="email" name="email" id="email" placeholder="seu@email.com" onchange="validateFields()"/>
+        </div>
         <div class="senha">
             <div><label>Senha</label></div>
             <input class="senha-d" type="password" name="password" id="password" placeholder="Senha" onchange="validateFields()"/>
         </div>
-        <div >
-            <button type="button" class="clear" id="recover-password-button" disabled="true">Recuperar senha</button>
+        <div>
+            <button type="button" class="clear" id="recover-password-button" disabled="disabled">Recuperar senha</button>
         </div>
         <div>
-            <button type="button" class="solid" id="login-button" disabled="true">Entrar</button>
+            <button type="button" class="solid" id="login-button" disabled="disabled">Entrar</button>
         </div>
         <div>
             <button type="button" class="outline">Registrar</button>
         </div>
     </form>
-   
 </body>
 </html>

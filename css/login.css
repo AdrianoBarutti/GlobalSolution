@@ -1,3 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.cabecalho {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 40px;
+}
+
 body {
     background: white;
     display: flex;
@@ -6,56 +29,63 @@ body {
     height: 100vh;
     font-family: "Nunito", sans-serif;
 }
-.email , .senha {
-    font-size: 25px;
-    
-}
-.email-d , .senha-d{
-    border:solid 1px #0057B6;
-    border-radius: 5px;
 
+.email, .senha {
+    font-size: 25px;
 }
+
+.email-d, .senha-d {
+    border: solid 1px #0057B6;
+    border-radius: 5px;
+}
+
 form {
     width: 300px;
-    border:solid 2px #949494;
+    border: solid 2px #949494;
     padding: 10px;
     border-radius: 10px;
 }
+
 input {
     border: none;
 }
+
 input, button {
     padding: 10px;
     margin-bottom: 10px;
     width: -webkit-fill-available;
 }
+
 button {
     cursor: pointer;
 }
+
 button:active {
     opacity: 0.8;
 }
+
 button[disabled] {
     opacity: 0.8;
 }
- 
 
 .clear {
     background: transparent;
     border: none;
     color: #949494;
 }
+
 .solid {
     background: whitesmoke;
     border: none;
     color: #0057B6;
-
 }
+
 .outline {
     background: transparent;
     color: #0057B6;
     border: 2px solid #0057B6;
 }
-.form{
-    border-radius: solid 1px black;         
+
+.form {
+    border-radius: solid 1px black;
 }
