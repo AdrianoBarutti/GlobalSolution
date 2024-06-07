@@ -1,3 +1,4 @@
+/* Existing CSS */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -160,6 +161,7 @@
     margin-right: 100px;
     color: #949494;
     font-family: "Monstserra", sans-serif;
+    margin-bottom: 5px;
 }
 .integrantes {
     display: flex;
@@ -174,34 +176,71 @@
     color: #0057B6;
 }
 .integrantes-img {
-    display: flex;
-    align-items: cent   er;
+    display: flex;      
     justify-content: center;
-    flex-wrap: wrap; /* Adicionado para permitir quebra de linha */
 }
 .integrantes-img img {
     height: 200px;
     width: 200px;
     border-radius: 12px;
     display: flex;
-    margin: 7vh;
+    margin: 3vh;
+    border: solid 3px#0057B6; 
 }
 .integrantes-img p {
-    font-size: 2vh;
-    font-family: "Monstserra", sans-serif;                 
+    font-size: 3vh;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+             
 }
 .adr, .lps, .marc {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;  
+    margin-bottom: 80px; 
 }
 
-/* Media Queries para Responsividade */
+/* Adjusted CSS for responsive footer */
+.rodape {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.rodape h1 {
+    font-family: "IBM Plex Sans", sans-serif;
+    margin-bottom: 20px;
+}
+.img-empresas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img-empresas img {
+    height: 10vh;
+    width:200px;
+    margin: 10px;
+}
+
+/* Responsive design adjustments */
 @media (max-width: 768px) {
     .integrantes-img {
         flex-direction: column;
     }
     .integrantes-img img {
-        margin: 2vh 0; /* Ajuste a margem conforme necessário */
+        margin: 2vh 0; 
+    }
+    .rodape {
+        padding: 10px;
+    }
+    .rodape h1 {
+        font-size: 24px;
+    }
+    .img-empresas img {
+        height: 8vh;
+        width: 80px;
     }
 }
