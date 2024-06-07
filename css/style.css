@@ -166,11 +166,20 @@ html{
     font-family: "Monstserra", sans-serif;
     margin-bottom: 5px;
 }
+#read-more-button{
+    font-size: 16px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: bold;
+    color: #0057B6;
+  border: none;
+  background-color: white;
+}
 .integrantes {
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 20px;
+    margin: 10px;
 }
 .integrantes h1 {
     font-size: 44px;
@@ -182,7 +191,7 @@ html{
     display: flex;      
     justify-content: center;
 }
-.integrantes-img img {
+#img-a,#img-l,#img-m {
     height: 200px;
     width: 200px;
     border-radius: 12px;
@@ -196,14 +205,19 @@ html{
     font-weight: bold;
              
 }
+.integrantes-img img{
+    width: 64px;
+}
 .adr, .lps, .marc {
     display: flex;
     flex-direction: column;
     align-items: center;  
     margin-bottom: 80px;
 }
- 
-/* Adjusted CSS for responsive footer */
+#email-a ,#email-j, #email-k{
+    font-size: 18px;
+} 
+
 .rodape {
     background-color: whitesmoke;
     display: flex;
@@ -228,7 +242,7 @@ html{
     margin: 10px;
 }
  
-/* Responsive design adjustments */
+
 @media (max-width: 768px) {
     .integrantes-img {
         flex-direction: column;

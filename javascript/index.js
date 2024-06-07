@@ -9,3 +9,17 @@ window.watsonAssistantChatOptions = {
     t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
     document.head.appendChild(t);
   });
+  document.addEventListener("DOMContentLoaded", function () {
+    const readMoreButton = document.getElementById("read-more-button");
+    const additionalText = document.getElementById("additional-text");
+
+    readMoreButton.addEventListener("click", function () {
+        if (additionalText.style.display === "none") {
+            additionalText.style.display = "block";
+            readMoreButton.textContent = "Voltar";
+        } else {
+            additionalText.style.display = "none";
+            readMoreButton.textContent = "Ler Mais";
+        }
+    });
+});
