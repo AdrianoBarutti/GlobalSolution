@@ -10,8 +10,16 @@ body {
     font-size: 25px;
     
 }
+.email-d , .senha-d{
+    border:solid 1px #0057B6;
+    border-radius: 5px;
+
+}
 form {
     width: 300px;
+    border:solid 2px #949494;
+    padding: 10px;
+    border-radius: 10px;
 }
 input {
     border: none;
