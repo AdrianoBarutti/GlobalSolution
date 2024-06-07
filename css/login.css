@@ -48,3 +48,6 @@ button[disabled] {
     color: #0057B6;
     border: 2px solid #0057B6;
 }
+.form{
+    border-radius: solid 1px black;         
+}
